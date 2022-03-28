@@ -1,0 +1,60 @@
+.main {
+  background: #ffffff;
+  box-shadow: 0px 18px 26px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+}
+
+.status {
+  width: 8rem;
+  height: 2.8rem;
+  background: #2bc155;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+}
+.Disable {
+  width: 8rem;
+  height: 2.8rem;
+  background: #f4f5f9;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #969b9f;
+  border: none;
+}
+.clickHere {
+  width: 8rem;
+  height: 2.8rem;
+  background: #fff;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #1eaae7;
+  border: 2px solid #1eaae7;
+}
+
+table.table-bordered1 {
+  border-bottom: 2px solid #f4f4f4 !important;
+}
+table.table-bordered1 > thead > tr > th {
+  border-bottom: 2px solid #f4f4f4 !important;
+}
+table.table-bordered1 > tbody > tr > td {
+  border-bottom: 2px solid #f4f4f4 !important;
+}
+
+.table tr th {
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 23px !important;
+  color: #000000 !important;
+}
+
+.textCenter {
+  text-align: center;
+}

@@ -1,0 +1,64 @@
+.Hom{
+    display: flex;
+    flex: auto;
+    border: 1px solid;
+}
+#item1{
+    flex: auto;
+    background-color: red;
+        .atmCard{
+        min-height: 300px;
+        // width: 75%;
+        // background-color: yellow;
+        .cardd{
+            width: 496px;
+            height: 330px;
+            // background-color: chartreuse;
+        }
+        .flippcon{
+            width: 100%;
+            // background-color: cyan;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .flipt{
+            width: 92%;
+            height: 30px;
+            background-color: rgba(254, 254, 254, 1);
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+            z-index: 2;
+            }
+        .flipb{
+            width: 80%;
+            height: 30px;
+            background-color: rgba(254, 254, 254, 1);
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+            z-index: 1;
+
+
+        }
+        .flipbtn{
+        height: 68px;
+        width: 68px;
+        background-color: rgba(254, 254, 254, 1);
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 9px 9px 0px rgba(0, 0, 0, 0.15);
+        position: relative;
+        bottom:45px;
+        z-index: 10;
+        }
+        }
+    }
+}
+#item2{
+    flex: auto;
+    background-color: green;
+}

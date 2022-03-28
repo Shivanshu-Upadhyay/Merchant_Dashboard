@@ -1,0 +1,42 @@
+/* Create Marchant */
+
+.rowcontainer {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+label {
+  font-weight: bold;
+}
+
+.button-Cancel {
+  background: #f4f5f9;
+  width: 199.49px;
+  height: 47.48px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  color: #969b9f;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+  border: none;
+}
+
+.button-Sent {
+  background: #1eaae7;
+  width: 199.49px;
+  height: 47.48px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+  border: none;
+}

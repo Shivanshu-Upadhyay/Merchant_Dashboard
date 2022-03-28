@@ -1,0 +1,77 @@
+.card1 {
+  background: rgba(30, 170, 231, 0.2);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+}
+.card2 {
+  background: rgba(43, 193, 86, 0.2);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+}
+
+.card3 {
+  background: rgba(255, 0, 0, 0.2);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+}
+
+.imgcontainer {
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.imgcontainer img {
+  width: 32px;
+  height: 32px;
+  
+}
+.number {
+  font-weight: 800;
+  font-size: 39px;
+  line-height: 49px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.contentcard {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.tableMain {
+  background: #ffffff;
+  box-shadow: 0px 18px 26px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  padding: 15px;
+}
+
+table.table-bordered1 {
+  border-bottom: 2px solid #f4f4f4 !important;
+}
+table.table-bordered1 > thead > tr > th {
+  border-bottom: 2px solid #f4f4f4 !important;
+}
+table.table-bordered1 > tbody > tr > td {
+  border-bottom: 2px solid #f4f4f4 !important;
+}
+
+.table tr th {
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 23px !important;
+  color: #000000 !important;
+}
+.table tr td {
+  font-weight: 400 !important;
+  font-size: 17px !important;
+  line-height: 20px !important;
+  color: #000000 !important;
+}
+.textCenter{
+    text-align: center;
+}

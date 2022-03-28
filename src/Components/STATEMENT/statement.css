@@ -1,0 +1,70 @@
+td {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  vertical-align: middle;
+}
+
+th {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  vertical-align: middle;
+}
+
+.tableMain {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  padding: 20px !important;
+}
+
+table.table-bordered1 {
+  border-bottom: 2px solid #f4f4f4 !important;
+}
+table.table-bordered1 > thead > tr > th {
+  border-bottom: 2px solid #f4f4f4 !important;
+}
+table.table-bordered1 > tbody > tr > td {
+  border-bottom: 2px solid #f4f4f4 !important;
+}
+
+input {
+  width: 20.1px;
+  height: 19.97px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+button {
+  width: 134.24px;
+  height: 47.48px;
+  border: 1px solid #1eaae7;
+  box-sizing: border-box;
+  border-radius: 30px;
+  color: #1eaae7;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.statementheading {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 43px;
+  color: #000000;
+}
+.yearLink {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #bfbfbf;
+}
+
+.table2height{
+     max-height: 250px;
+}

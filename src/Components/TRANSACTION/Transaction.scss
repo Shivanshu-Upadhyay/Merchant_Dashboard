@@ -1,0 +1,287 @@
+.AllTransaction{
+    display: flex;
+    flex-direction: column;
+    .downAndFilter{
+        display: flex;
+        flex-direction: row-reverse;
+        button{
+        background: rgba(30, 170, 231, 1);
+        border:transparent;
+        padding:0 20px;
+        font-size: 14px;
+        color:white;
+        border-radius: 30px;
+
+        height: 55px;
+        z-index: 1;
+        }
+    }
+}
+.dashh{
+font-family: Mulish;
+font-size: 34px;
+font-style: normal;
+font-weight: 800;
+line-height: 43px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: 30px;
+}
+.TransactionProgress{
+    display: flex;
+    justify-content: space-between;
+    .TransactionProgressBox{
+        display: flex;
+        align-items: center;
+        width: 20%;
+        padding:10px;
+        justify-content: space-around;
+        background: rgba(172, 57, 212, 0.15);
+        border-radius: 30px;
+
+        .TransactionProgressBar{
+        width: 80px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 50px;
+        }
+        .TransactionProgressBar{
+            .CircularProgressbar-path {
+                stroke: rgba(171, 56, 211, 1);
+                }
+                .CircularProgressbar-trail {
+                stroke: rgba(172, 57, 212, 0.15);
+                
+                }
+                .CircularProgressbar-text {
+                fill: rgba(171, 56, 211, 1);
+                }
+                .CircularProgressbar-background {
+                fill: green;
+                }
+        }
+        
+        .TransactionProgressData{
+                        .thead{
+                font-size: 20px;
+                padding: 3px;
+            }
+            .tpara{
+                font-size: 14px;
+                color:rgba(172, 57, 212, 0.6);
+                padding:3px;
+            }
+        }
+    }
+    .TransactionProgressBox.one{
+        display: flex;
+        align-items: center;
+        width: 20%;
+        padding:10px;
+        justify-content: space-around;
+        background: rgba(172, 57, 212, 0.15);
+        border-radius: 30px;
+
+        .TransactionProgressBar{
+        width: 80px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 50px;
+        }
+        .TransactionProgressBar{
+            .CircularProgressbar-path {
+                stroke: rgba(171, 56, 211, 1);
+                }
+                .CircularProgressbar-trail {
+                stroke: rgba(172, 57, 212, 0.15);
+                
+                }
+                .CircularProgressbar-text {
+                fill: rgba(171, 56, 211, 1);
+                }
+                .CircularProgressbar-background {
+                fill: green;
+                }
+        }
+        
+        .TransactionProgressData{
+                        .thead{
+                font-size: 20px;
+                padding: 3px;
+            }
+            .tpara{
+                font-size: 14px;
+                color:rgba(172, 57, 212, 0.6);
+                padding:3px;
+            }
+        }
+    }
+    .TransactionProgressBox.two{
+        display: flex;
+        align-items: center;
+        width: 20%;
+        padding:10px;
+        justify-content: space-around;
+        background: rgba(61, 200, 159, 0.15);
+
+        border-radius: 30px;
+
+        .TransactionProgressBar{
+        width: 80px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 50px;
+        }
+        .TransactionProgressBar{
+            .CircularProgressbar-path {
+                stroke: rgba(59, 198, 157, 1);
+                }
+                .CircularProgressbar-trail {
+                stroke: rgba(61, 200, 159, 0.15);
+                
+                }
+                .CircularProgressbar-text {
+                fill: rgba(62, 203, 161, 1);
+                }
+                .CircularProgressbar-background {
+                fill: green;
+                }
+        }
+        
+        .TransactionProgressData{
+                        .thead{
+                font-size: 20px;
+                padding: 3px;
+            }
+            .tpara{
+                font-size: 14px;
+                color:rgba(59, 198, 157, 1);
+                padding:3px;
+            }
+        }
+    }
+    .TransactionProgressBox.three{
+        display: flex;
+        align-items: center;
+        width: 20%;
+        padding:10px;
+        justify-content: space-around;
+        background: rgba(70, 30, 225, 0.15);
+
+        border-radius: 30px;
+
+        .TransactionProgressBar{
+        width: 80px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 50px;
+        }
+        .TransactionProgressBar{
+            .CircularProgressbar-path {
+                stroke:rgba(71, 30, 228, 1);
+
+;
+                }
+                .CircularProgressbar-trail {
+                stroke: rgba(70, 30, 225, 0.15);
+                
+                }
+                .CircularProgressbar-text {
+                fill: rgba(71, 30, 228, 1);
+                }
+                .CircularProgressbar-background {
+                fill: green;
+                }
+        }
+        
+        .TransactionProgressData{
+                        .thead{
+                font-size: 20px;
+                padding: 3px;
+            }
+            .tpara{
+                font-size: 14px;
+                color:rgba(71, 30, 228, 1);
+                padding:3px;
+            }
+        }
+    }
+    .TransactionProgressBox.four{
+        display: flex;
+        align-items: center;
+        width: 20%;
+        padding:10px;
+        justify-content: space-around;
+        background: rgba(30, 170, 231, 0.2);
+
+
+        border-radius: 30px;
+
+        .TransactionProgressBar{
+        width: 80px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 50px;
+        }
+        .TransactionProgressBar{
+            .CircularProgressbar-path {
+                stroke:rgba(30, 170, 231, 1);
+;
+
+;
+                }
+                .CircularProgressbar-trail {
+                stroke:rgba(30, 170, 231, 0.2);
+;
+                
+                }
+                .CircularProgressbar-text {
+                fill: rgba(30, 170, 231, 1);
+;
+;
+                }
+                .CircularProgressbar-background {
+                fill: green;
+                }
+        }
+        
+        .TransactionProgressData{
+                        .thead{
+                font-size: 20px;
+                padding: 3px;
+            }
+            .tpara{
+                font-size: 14px;
+                color:rgba(30, 170, 231, 1);
+;
+                padding:3px;
+            }
+        }
+    }
+}
+
+.sta{
+    background-color: rgba(249, 80, 26, 1);
+    color:rgba(255, 255, 255, 1);
+
+    padding:10px 18px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.stb{
+    border:1px solid rgba(43, 193, 86, 1);
+    color:rgba(43, 193, 86, 1);
+        padding:10px 18px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.refsta{
+    background-color: rgba(27, 78, 99, 1);
+        padding:10px 18px;
+    border-radius: 20px;
+    font-weight: 700;
+        color:rgba(255, 255, 255, 1);
+
+}
+.refstb{
+    border:1px solid rgba(27, 78, 99, 1);
+    color:rgba(27, 78, 99, 1);
+    padding:10px 35px;
+    border-radius: 20px;
+    font-weight: 700;
+}

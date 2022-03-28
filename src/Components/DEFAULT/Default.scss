@@ -1,0 +1,37 @@
+.Default{
+    width: 100%;
+    display: flex;
+}
+.Rest{
+    min-height: 100vh;
+    padding:0 70px;
+    flex: auto;
+    // background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    position: fixed;
+    left:10px;
+    top:15px;
+}
+@media (max-width:1200px) {
+    .Rest{
+        padding:0 0;
+    }
+}
+@media (min-width:1201px) and (max-width:1400px) {
+    .Rest{
+        padding:0 0;
+    }
+}
+@media (min-width:1401px) and (max-width:1700px) {
+    .Rest{
+        padding:0 10px;
+    }
+}
+@media (min-width:1701px) {
+    .Rest{
+        padding:0 20px;
+    }
+}

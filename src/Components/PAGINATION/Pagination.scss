@@ -1,0 +1,37 @@
+.Pagination{
+    // background-color: blue;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    .pdata{
+        display: flex;
+        border-radius: 30px;
+        background-color: #F4F4F4;
+        padding: 5px 5px;
+        align-items: center;
+        img{
+            margin:0 15px;
+        }
+
+        div{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 18px;
+            color: #1EAAE7;
+
+        }
+        .nclass{
+            margin: 0 8px;
+            background-color: #FFFFFF;
+            box-shadow: 0px 1px 4px 0px #00000040;
+            height: 52px;
+            width: 52px;
+        }
+    }
+
+}
